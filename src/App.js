@@ -1,9 +1,10 @@
 import './App.css';
 import React, {useState} from 'react';
+import useLocalStorage from './useLocalStorage';
 import {marked} from 'marked'
 
 const App = () => {
-  const [code, setCode] = useState('## Hello')
+  const [code, setCode] = useLocalStorage('codeKey', '## Hello')
   const [compiled, setCompiled] = useState('<h2 id="hello">Hello</h2>')
   const [hide, hidePreview] = useState(true)
 
