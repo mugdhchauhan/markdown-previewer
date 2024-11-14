@@ -32,9 +32,9 @@ h1{
     -o-border-radius: 4px;
 }
 .btns{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(60px, auto);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .btns button{
     padding: 8px;
@@ -49,6 +49,7 @@ h1{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     font-weight: 500;
+    width: 50vw;
 }
 .btns button.btn{
     background-color: #56cbdb;
@@ -82,4 +83,33 @@ textarea{
     letter-spacing: 0.2px;
     font-family: monospace, sans-serif;
     font-size: 20px;
+}
+
+.docsDiv {
+    color: #efe7e7;
+    border: 1px solid white;
+    list-style-type: "-";
+    overflow-wrap: break-word;
+}
+
+.docsDiv h1 {
+    font-size: 40px;
+    color: #efe7e7;
+}
+
+.examplesDiv {
+    background-color: #808080;
+    color: #000000;
+    list-style-type: "-";
+    border: 1px solid #000000;
+}
+
+.examplesDiv h2 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.examplesDiv li {
+    font-size: 26px;
+    color: #000000;
 }

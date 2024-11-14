@@ -9,3 +9,8 @@ hello there, your task is to:
 fork the repository and start working on it.
 
 best of luck.
+
+## Attributions 
+
+* React Fetch, https://www.geeksforgeeks.org/how-to-target-nested-objects-from-a-json-data-file-in-react/
+* Displaying API data, https://www.freecodecamp.org/news/destructure-object-properties-using-array-map-in-react/
